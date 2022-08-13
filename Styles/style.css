@@ -1,0 +1,91 @@
+body {
+  background-color: #f5f5f5;
+}
+
+.box {
+  height:100vh;
+}
+
+.fit-image {
+    max-width:120%;
+    max-height:100%;
+}
+
+/* login */
+.login-control:focus {
+  border-color: #00cbcb !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 128, 128, 0.3) !important;
+}
+
+
+.btn-login, .btn-login:visited {
+    background-color: #008080 !important;
+    border:#008080;
+}
+
+.btn-login:hover, .btn-login:active{
+  background-color: #029696 !important
+}
+
+/* signup */
+.signup-control:focus {
+  border-color: #c5b5ff !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(143, 117, 236, 0.5) !important;
+}
+
+.btn-signup, .btn-signup :visited {
+  background-color: #8f75ec !important;
+  border:#c5b5ff!important;
+}
+
+.btn-signup:hover, .btn-signup:active{
+  background-color: #7557e3 !important
+}
+
+.signup-select:focus, .signup-select:hover {
+  border-color: #c5b5ff!important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(143, 117, 236, 0.5) !important;
+}
+
+.valid {
+  color: #42ba96;
+}
+
+.valid:after {
+  position: relative;
+  right:-5px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: #df4759;
+}
+
+.invalid:after {
+  position: relative;
+  right:-5px;
+  content: "✖";
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+select:invalid,
+select option[value=""] {
+  color: #b6babe;
+}
+
+/*Added for browser compatibility*/
+[hidden] {
+  display: none;
+}
